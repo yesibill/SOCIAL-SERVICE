@@ -1,0 +1,43 @@
+body {
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+.formulario {
+	text-align: center;
+	margin-top: 0px;
+	padding: 20px;
+	font-size: 3em;
+	font-weight: bold;
+	background-color: rgb(66, 132, 242);
+	width: 50%;
+	height: 25%;
+	margin: 0 auto;
+}
+
+.formulario1 {
+	text-align: center;
+	margin-top: 0px;
+	padding: 20px;
+	font-size: 3em;
+	font-weight: bold;
+	background-color: #FF006E;
+	width: 50%;
+	height: 25%;
+	margin: 0 auto;
+}
+
+
+.formulario2 {
+	text-align: center;
+	margin-top: 0px;
+	padding: 20px;
+	font-size: 3em;
+	font-weight: bold;
+	background-color: red;
+	width: 50%;
+	height: 25%;
+	margin: 0 auto;
+}

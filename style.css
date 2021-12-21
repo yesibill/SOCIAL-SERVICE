@@ -1,0 +1,117 @@
+body {
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+table {
+	text-align:center;
+	width: 65%;
+	border: 1 px solid black;
+	/*margin-bottom: 50px;*/
+	font-family: 'Kurale', serif;
+	margin: 0 auto;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+th {
+	background-color: #29D9C2;
+	padding: 1em;
+	border: 1px solid black;
+}
+
+td {
+	padding: 1em;
+}
+
+.lista {
+	font-family: 'Kurale', serif;
+	font-weight: bold;
+	width: 20%;
+	border-radius: 5px;
+	border: 1px solid;
+	padding: 4px;
+	width: 40%;
+}
+
+.lista:focus {
+	border-radius: 5px;
+	border: 1px solid #FF0083;
+	box-shadow: 0px 0px 4px 2px #FF0083;
+}
+
+.formulario {
+	text-align: center;
+	margin-top: 0px;
+	padding: 20px;
+	font-family: 'Kurale', serif;
+	font-size: 3em;
+	font-weight: bold;
+	/*background-color: #29D9C2;*/
+	width: 50%;
+	margin: 0 auto;
+}
+
+.contenedor {
+	margin-bottom:15px;
+	padding:55px;
+	background-color: pink;
+	width: 40%;
+	margin: 0 auto;
+	border-radius: 6px;
+	border: 1px solid #FF006E;
+}
+
+input {
+	font-family: 'Kurale', serif;
+	font-weight: bold;
+	width: 20%;
+}
+
+.text {
+	border-radius: 5px;
+	border: 1px solid;
+	padding: 4px;
+	width: 40%;
+}
+
+.text:focus {
+	border-radius: 5px;
+	border: 1px solid #FF0083;
+	box-shadow: 0px 0px 4px 2px #FF0083;
+}
+
+.btnsubmit {
+	border: 3px solid;
+	cursor: pointer;
+	font-family: 'Kurale', serif;
+	font-weight: bold;
+	font-size: 20px;
+	margin-left:40%;
+	/*margin: 0 auto;*/
+}
+
+.btnsubmit:hover {
+	border: 3px solid #FF0083;
+	border-radius: 6px;
+} 
+
+label {
+	font-family: 'Kurale', serif;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+p {
+	font-family: 'Kurale', serif;
+	font-size: 2em;
+	font-weight: bold;
+	text-align:center;
+}
+
+.centrar {
+	margin-left: 20%;
+}
+

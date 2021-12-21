@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="../main.css">
+		<link href="https://fonts.googleapis.com/css?family=Kurale" rel="stylesheet">
+		<script src="js/java.js"></script>
+		<meta charset="utf-8"/>
+		<title>Ejemplo HTML.</title>
+	</head>
+		<body>
+		
+				<div class="contenedor" id="id_divPadre" >1° div
+				<div>
+				<div ></div>
+				<div></div>
+				</div>
+				<div> </div>
+				<div> </div>
+				<div> </div>
+				
+				<input name="boton" value="boton" type="button" id = "id_boton" onclick ="botonclick()"/>
+				</div>
+			
+				<script>
+				function botonclick(){
+					var color = document.querySelectorAll(".contenedor > div"); 
+					for (var i = 0; i < color.length; i++){
+						color[i].style.backgroundColor = "#48C9B0";
+					}
+				} 
+				
+				</script>
+					
+		</body>
+</html>

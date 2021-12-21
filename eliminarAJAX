@@ -1,0 +1,15 @@
+			function eliminar(matricula){	
+				alert(matricula); 
+				var request = $.ajax({
+					url: "eliminar.php",
+					method: "POST",
+					data: { matricula : matricula},
+					dataType: "json"
+				});
+				 
+				request.done(function( verdadero ){
+					if(verdadero.retorno == 1){
+						alert(verdadero.mensaje);
+					} 
+				});
+			}
